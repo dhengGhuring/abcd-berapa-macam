@@ -82,28 +82,6 @@ function App() {
 
   return (
     <>
-      <div
-        style={{
-          // border: "1px solid black",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "200px",
-          width: "200px",
-          margin: "0 auto",
-        }}
-      >
-        <img
-          src={oneData?.imageUrl}
-          alt="Gambar Harimau"
-          style={{
-            objectFit: "cover",
-            width: "100%",
-            height: "100%",
-            borderRadius: "100%",
-          }}
-        />
-      </div>
       <div>
         {/* <h1>ABCD berapa macam</h1> */}
         <hr />
