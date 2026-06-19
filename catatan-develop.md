@@ -1,6 +1,6 @@
-## Catatan Develop:
+# Catatan Develop
 
-### DAFTAR ISSUE :
+## DAFTAR ISSUE
 
 1. Function untuk totalJari gak sama karena fungsi totalJari dipanggil 2x di handleStart dan handleCekJawaban gara gara itu juga fungsi untuk generate jari komputer jadi berbeda juga. [SOLVED]
 2. Ketika player sudah klik tombol Cek, countdown masih berjalan. Seharusnya countdown mati ketika tombol Cek diklik. [SOLVED]
@@ -10,7 +10,7 @@
 
 ---
 
-### SOLUSI :
+### SOLUSI
 
 1. Buat state yang menyimpan perhitungan total jari agar tidak perlu memanggil function totalJari berulang ulang.
 2. Tempatkan fungsi interval di app.tsx langsung agar bisa di control sendir.
@@ -20,7 +20,7 @@
 
 ---
 
-### SARAN FITUR :
+### SARAN FITUR
 
 1. Menampilkan "Fun Fact" & Informasi Edukatif
 2. Kategori Tebakan Baru selain hewan.
